@@ -8,7 +8,7 @@
 
         Console.WriteLine("Enter the second number: ");
         double num2 = Convert.ToDouble(Console.ReadLine());
-        double result = 0;
+        //double result = 0;
 
         while (true)
         {
@@ -17,23 +17,23 @@
             switch (Console.ReadLine())
             {
                 case "add":
-                    result = num1 + num2;
-                    Console.WriteLine("{0}+{1}=" + "{2}", num1, num2, result);
+                    //result = num1 + num2;
+                    Console.WriteLine("{0}+{1} ="+(num1+num2), num1, num2);
                     break;
 
                 case "subtract":
-                    result = num1 - num2;
-                    Console.WriteLine("{0}-{1}=" + "{2}", num1, num2, result);
+                    //result = num1 - num2;
+                    Console.WriteLine("{0}-{1} ="+(num1-num2), num1, num2);
                     break;
 
                 case "multiply":
-                    result = num1 * num2;
-                    Console.WriteLine("{0}*{1}=" + "{2}", num1, num2, result);
+                    //result = num1 * num2;
+                    Console.WriteLine("{0}*{1} ="+(num1*num2), num1, num2);
                     break;
 
                 case "divide":
-                    result = num1 / num2;
-                    Console.WriteLine("{0}/{1}=" + "{2}", num1, num2, result);
+                    //result = num1 / num2;
+                    Console.WriteLine("{0}/{1} ="+(num1/num2), num1, num2);
                     break;
 
                 default:
